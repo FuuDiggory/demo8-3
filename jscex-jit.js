@@ -1374,7 +1374,7 @@
     if (isCommonJS) {
         module.exports.init = function (root) {
             if (!root.modules["parser"]) {
-                require("./jscex-parser").init(root);
+                require("./mẹ/jscex-parser").init(root);
             };
             
             init(root);
